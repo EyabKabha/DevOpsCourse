@@ -1,6 +1,6 @@
 # importing the random module
 import random
-
+from Score import add_score
 secret_number = 0
 flag = False
 
@@ -27,5 +27,6 @@ def play_guess_game(game_difficulty):
 
     if flag:
         print('You\'re gussing right!' )
+        add_score(game_difficulty)
     else:
          print('You\'re gussing not right!' )

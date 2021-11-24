@@ -1,6 +1,8 @@
 import random
 import time
 import os
+from Utils import screen_cleaner
+from Score import add_score
 
 randomlist = []
 list_guess = []
@@ -12,9 +14,10 @@ def generate_sequence(difficulty):
         randomlist.append(n)
     
     print(randomlist)
+    
     # wait then clear
     time.sleep(5)
-    os.system('cls')
+    screen_cleaner()
     
 def get_list_from_user(difficulty):
     global list_guess 
@@ -36,5 +39,6 @@ def play_memory_game(difficulty):
     get_list_from_user(difficulty)
     if(is_list_equal(list_guess)==True):
         print('You won!')
+        add_score(difficulty)
     else:
         print('You Lose... try again!')

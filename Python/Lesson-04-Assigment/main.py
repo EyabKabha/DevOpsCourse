@@ -84,17 +84,17 @@ from selenium import webdriver
 
 # 7
 
-# my_driver_for_facebook = webdriver.Chrome(
-#     executable_path="C:\\Users\\admin\Desktop\\chromedriver_win32\\chromedriver")
+my_driver_for_facebook = webdriver.Chrome(
+    executable_path="C:\\Users\\admin\Desktop\\chromedriver_win32\\chromedriver")
 
-# my_driver_for_facebook.get('https://www.facebook.com/login')
+my_driver_for_facebook.get('https://www.facebook.com/login')
 
 
-# my_driver_for_facebook.find_element_by_xpath('//*[@id="email"]').send_keys('example.com')
+my_driver_for_facebook.find_element_by_xpath('//*[@id="email"]').send_keys('example.com')
 
-# my_driver_for_facebook.find_element_by_xpath('//*[@id="pass"]').send_keys('example.com')
+my_driver_for_facebook.find_element_by_xpath('//*[@id="pass"]').send_keys('example.com')
 
-# my_driver_for_facebook.find_element_by_id('loginbutton').click()
+my_driver_for_facebook.find_element_by_id('loginbutton').click()
 
 # 8 
 
@@ -112,11 +112,11 @@ from selenium import webdriver
 
 # 9
 
-my_driver_for_github = webdriver.Chrome(
-    executable_path="C:\\Users\\admin\Desktop\\chromedriver_win32\\chromedriver")
+# my_driver_for_github = webdriver.Chrome(
+#     executable_path="C:\\Users\\admin\\Desktop\\chromedriver_win32\\chromedriver.exe")
 
-my_driver_for_github.get('https://www.github.com')
+# my_driver_for_github.get('https://www.github.com')
 
-my_driver_for_github.find_element_by_xpath('/html/body/div[1]/header/div/div[2]/div[2]/div[1]/div/div/form/label').send_keys('Selenium')
+# my_driver_for_github.find_element_by_xpath('/html/body/div[1]/header/div/div[2]/div[2]/div[1]/div/div/form/label').send_keys('Selenium')
 
-my_driver_for_github.find_element_by_xpath('/html/body/div[1]/header/div/div[2]/div[2]/div[1]/div/div/form/label').send_keys(u'\ue007')
+# my_driver_for_github.find_element_by_xpath('/html/body/div[1]/header/div/div[2]/div[2]/div[1]/div/div/form/label').send_keys(u'\ue007')

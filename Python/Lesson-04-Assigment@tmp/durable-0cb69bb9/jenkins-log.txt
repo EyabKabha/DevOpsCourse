@@ -1,0 +1,2 @@
+
+D:\DevOps Course\DevOpsCourse\Python\Lesson-04-Assigment>python main.py 
